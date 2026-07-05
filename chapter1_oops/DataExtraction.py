@@ -25,7 +25,7 @@ class DataExt:
         df = pd.read_parquet(self.file_path)
         print(df.head())
 
-data1 = DataExt("./files/orders.csv")
+data1 = DataExt("../chapter2_decorators/orders.csv")
 data2 = DataExt("./files/orders.json")
 # data3 = DataExt("./files/orders.tsv")
 data4 = DataExt("./files/orders.parquet")
